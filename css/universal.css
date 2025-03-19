@@ -123,6 +123,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #818589;
+    flex-wrap: wrap;
 }
 
 .tab-group .tab-group-btn {
@@ -186,4 +187,59 @@ body {
 .article-main .article-text p {
     font-family: "article-font";
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .super-header .company-top {
+        font-size: 17px;
+        width: 40%
+    }
+
+    .super-header .btn-link {
+        width: 20%;
+        font-size: 12px;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .company-title {
+        height: 70px;
+    }
+
+    .company-title h1 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        width: 100px;
+        height: 22px;
+    }
+
+    .subtitle h1 {
+        font-size: 10px;
+    }
+
+
+    .tab-group .tab-group-btn {
+        height: 40%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .article-main h2 {
+        font-size: 30px;
+    }
+
+    .article-main .article-img {
+        width: 290px;
+    }
+
+    .article-main .article-text {
+        width: 280px;
+    }
+
+    .article-main .article-text p {
+        font-size: 14px;
+    }
+
 }
